@@ -16,6 +16,6 @@ print(a)
 
 # tuple
 t = (1, 2, 3)
-t_r = reversed(t)
+t_r = tuple(reversed(t))
 print(t)
 print(t_r)
