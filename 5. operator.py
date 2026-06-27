@@ -1,5 +1,8 @@
-a = 4 + 5
+a = 4 + 78
 b = 5 + 6
 c = a + b
 d = a * b
-print(a, b, c, d)
+e = 21 / 5  # float devison
+f = 21 // 5  # int devision
+print(a, b, float(c), d, int(e), f)
+
