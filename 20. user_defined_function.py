@@ -25,3 +25,16 @@ add_two_numbers(10, 15)
 
 def multiply_two_numbers(a, b):
     return a * b
+
+
+result = multiply_two_numbers(13, 2)
+print(result)
+
+
+# no input , return
+def hello():
+    return "Hello"
+
+
+greeting = hello()
+print(greeting)
